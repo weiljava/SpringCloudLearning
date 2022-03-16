@@ -39,3 +39,12 @@ logging:
     reactor.netty: DEBUG
 
 management.endpoints.web.exposure.include: '*'
+
+
+
+custom-executor-service:
+  corePoolSize: 10
+  maximumPoolSize: 10
+  keepAliveTime: 0
+  capacity: 1024;
+  artifactId: gateway
